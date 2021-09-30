@@ -4,4 +4,4 @@
 Php doit être en version **7.0.3**.
 
 ## Base de données
-Pour rendre un utilisateur administrateur le champs `useRole` doit être suppérieur à `50`
+Pour rendre un utilisateur administrateur le champ `useRole` doit être supérieur à `50`
