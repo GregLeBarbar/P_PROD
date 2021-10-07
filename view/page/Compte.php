@@ -18,7 +18,7 @@
         }
 
         if (array_key_exists('Errors', $_SESSION)) {
-            if (count($_SESSION['Errors']) > 0) {
+            if (!empty($_SESSION['Errors']) > 0) {
                 ?>
                 <div class="alert alert-danger mt-5">
                     Oups ... Nous avons rencontré quelques erreurs :<br>
